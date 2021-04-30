@@ -289,56 +289,19 @@ img{
   z-index: var(--z-back);
 }
 .skills__html{
-  width: 95%;
+  width: 80%;
 }
 .skills__css{
-  width: 85%;
+  width: 70%;
 }
 .skills__js{
-  width: 65%;
+  width: 50%;
 }
-.skills__ux{
-  width: 85%;
+.skills__bs{
+  width: 45%;
 }
 .skills__img{
   border-radius: .5rem;
-}
-
-/* ===== WORK =====*/
-.work__container{
-  row-gap: 2rem;
-}
-.work__img{
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
-  border-radius: .5rem;
-  overflow: hidden;
-}
-.work__img img{
-  transition: 1s;
-  cursor: pointer;
-}
-.work__img img:hover{
-  transform: scale(1.1);
-}
-
-/* ===== CONTACT =====*/
-.contact__input{
-  width: 100%;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: .5rem;
-  border: 1.5px solid var(--second-color);
-  outline: none;
-  margin-bottom: var(--mb-4);
-}
-.contact__button{
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto;
 }
 
 /* ===== FOOTER =====*/
@@ -417,7 +380,6 @@ img{
     width: 457px;
     bottom: 15%;
   }
-
   .about__container, .skills__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -425,17 +387,6 @@ img{
   }
   .about__img img{
     width: 300px;
-  }
-  .work__container{
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2,1fr);
-    column-gap: 2rem;
-  }
-  .contact__form{
-    width: 360px;
-  }
-  .contact__container{
-    justify-items: center;
   }
 }
 
